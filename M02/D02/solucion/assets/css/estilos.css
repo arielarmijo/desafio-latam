@@ -1,0 +1,23 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    
+    margin: 2rem 0 5rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.25s linear;
+}
+
+#maquina {
+    transform: scaleX(-1);
+}
+
+.show {
+    opacity: 1;
+}
