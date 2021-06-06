@@ -48,9 +48,7 @@ const showPlayer = new Player('serie', showVideo);
 const players = [musicPlayer, moviePlayer, showPlayer];
 
 function onYouTubeIframeAPIReady() {
-    musicPlayer.initialize();
-    moviePlayer.initialize();
-    showPlayer.initialize();
+    players.forEach(player => player.initialize());
 }
 
 const buttons = document.getElementsByTagName('button');
