@@ -121,6 +121,8 @@ function finalizarJuego() {
         pjeHumano = 0;
         pjeMaquina = 0;
         rondasInput.disabled = false;
+        marcadorHumano.innerText = 0;
+        marcadorMaquina.innerText = 0;
         botones.forEach(boton => {
             boton.disabled = false;
         });
