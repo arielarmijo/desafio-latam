@@ -7,3 +7,4 @@ Soluciones a los desafíos propuestos en el bootcamp desarrollo de aplicaciones 
 02. [Clases en ES6](https://arielarmijo.github.io/desafio-latam/M03/U01/D02/solucion/index.html)
 ### Unidad 2 - Herencia
 01. [Lista de animales](https://arielarmijo.github.io/desafio-latam/M03/U02/D01/solucion/index.html)
+02. [Sugerencia de videos](https://arielarmijo.github.io/desafio-latam/M03/U02/D02/solucion/index.html)

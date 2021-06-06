@@ -1,0 +1,13 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+    width: 10%;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
