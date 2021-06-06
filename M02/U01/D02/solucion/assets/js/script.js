@@ -129,7 +129,4 @@ function finalizarJuego() {
         myModal.hide();
     });
 
-    
-    
-    
 }
