@@ -123,6 +123,8 @@ function finalizarJuego() {
         rondasInput.disabled = false;
         marcadorHumano.innerText = 0;
         marcadorMaquina.innerText = 0;
+        humano.classList.remove('show');
+        maquina.classList.remove('show');
         botones.forEach(boton => {
             boton.disabled = false;
         });
