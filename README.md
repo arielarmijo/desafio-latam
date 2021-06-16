@@ -20,3 +20,6 @@ Soluciones a los desafíos propuestos en el bootcamp desarrollo de aplicaciones 
 ### Unidad 3 - Callbacks y APIs
 01. [Promesas](https://arielarmijo.github.io/desafio-latam/M03/U03/D01/solucion/index.html)
 02. [Obtener información de usuario de GitHub](https://arielarmijo.github.io/desafio-latam/M03/U03/D02/solucion/index.html)
+
+### Unidad 4 - Trabajo práctico
+01. [Torneo de artes marciales](https://arielarmijo.github.io/desafio-latam/M03/U04/P01/solucion/index.html)
