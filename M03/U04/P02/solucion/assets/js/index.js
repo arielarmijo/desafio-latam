@@ -18,7 +18,7 @@ let animalesInvestigados = [];
 
 animalDB.getData().then(data => {
     animales = data.animales;
-    console.log(animales);
+    //console.log(animales);
 });
 
 document.getElementById('animal').addEventListener('change', (event) => {
@@ -60,7 +60,7 @@ document.getElementById('btnRegistrar').addEventListener('click', (event) => {
                 animal = new Animal(nombre, edad, imagen, comentario, sonido);
                 break;
         }
-        console.log(animal);
+        //console.log(animal);
         animalesInvestigados.push(animal);
         reloadTable();
     } else {
@@ -92,6 +92,10 @@ const reloadTable = () => {
 
 window.reproducir = (i) => {
     console.log('play', i);
+    let player = document.getElementById('player');
+    let sound = animalesInvestigados[i].getSonido();
+    player.src = `assets/sounds/${sound}`;
+    player.play();
 }
 
 window.abrirModal = (i) => {

@@ -23,4 +23,4 @@ Soluciones a los desafíos propuestos en el bootcamp desarrollo de aplicaciones 
 
 ### Unidad 4 - Trabajo práctico
 01. [Torneo de artes marciales](https://arielarmijo.github.io/desafio-latam/M03/U04/P01/solucion/index.html)
-02. [Animales salvajes](https://arielarmijo.github.io/desafio-latam/M03/U04/P02/solucion/index.html)2
+02. [Animales salvajes](https://arielarmijo.github.io/desafio-latam/M03/U04/P02/solucion/index.html)
