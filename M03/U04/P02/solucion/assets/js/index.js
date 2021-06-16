@@ -79,9 +79,9 @@ const reloadTable = () => {
         animalesInvestigadosTemplate += `
         <div class="px-3 pb-2 animal" data-fighter="">
           <div class="card bg-dark text-white">
-              <img src="assets/imgs/${a.getImg()}" class="card-img" alt="${a.getImg()}"/>
+              <img src="assets/imgs/${a.getImg()}" class="card-img" alt="${a.getImg()}" onclick="abrirModal(${i})"/>
               <div class="card-footer">
-                <img src="assets/imgs/audio.svg"/>
+                <img src="assets/imgs/audio.svg" onclick="reproducir(${i})"/>
               </div>
           </div>
         </div>
@@ -89,3 +89,11 @@ const reloadTable = () => {
     });
     document.getElementById('Animales').innerHTML = animalesInvestigadosTemplate;
 };
+
+window.reproducir = (i) => {
+    console.log('play', i);
+}
+
+window.abrirModal = (i) => {
+    console.log('modal', i);
+}
