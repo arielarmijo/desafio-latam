@@ -29,11 +29,11 @@
             <label for="exampleInputPassword1">Nombre del animal:</label>
             <select class="form-control bg-dark text-white" id="animal">
               <option disabled selected>Seleccione un animal</option>
-              <option value="Leon">León</option>
-              <option value="Lobo">Lobo</option>
-              <option value="Oso">Oso</option>
-              <option value="Serpiente">Serpiente</option>
-              <option value="Aguila">Águila</option>
+              <option value="0">León</option>
+              <option value="1">Lobo</option>
+              <option value="2">Oso</option>
+              <option value="3">Serpiente</option>
+              <option value="4">Águila</option>
             </select>
           </div>
 
@@ -67,10 +67,15 @@
 
   <audio id="player" class="d-none"></audio>
 
-  <div class="modal fade" id="exampleModal">
+  <div class="modal fade" id="animalModal">
     <div class="modal-dialog modal-dialog-centered w-25" role="document">
       <div class="modal-content bg-dark">
-        <div class="modal-body">...</div>
+        <div>
+          <button type="button" class="close p-2" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div id="modalBody" class="modal-body">...</div>
       </div>
     </div>
   </div>
